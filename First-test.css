@@ -1,0 +1,23 @@
+Body {
+	background-color: black;
+}
+
+h1 {
+	color: white;
+}
+
+p {
+	color: white;
+	width: 40%;
+}
+
+ul {
+	color: white;
+	border-style: solid;
+	border-color: #00CCCC;
+	border-width: 1px;
+}
+
+ul:hover {
+	transform: scale(0.99);
+}
