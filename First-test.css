@@ -1,14 +1,19 @@
 Body {
-	background-color: black;
+	background-image: url("http://www.spyderonlines.com/images/wallpapers/cool-black-background/cool-black-background-5.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 h1 {
-	color: white;
+	color: #00CCCC;
+	text-align: center;
 }
 
 p {
-	color: white;
-	width: 40%;
+	color: #00CCCC;
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 ul {
@@ -16,8 +21,25 @@ ul {
 	border-style: solid;
 	border-color: #00CCCC;
 	border-width: 1px;
+	list-style-type: none;
+	margin: 5px;
+	padding: 5px;
 }
 
 ul:hover {
-	transform: scale(0.99);
+	transform: scale(1.01);
+
+}
+
+img {
+	text-align: center;
+	
+}
+
+li {
+	float: left;
+}
+
+#King_Charles {
+	text-align: center;
 }
