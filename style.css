@@ -48,20 +48,16 @@ li:hover {
 	text-align: center;
 }
 
-.comics {
-	text-decoration: none;
-}
-
 .comics:hover {
 	text-decoration: underline;
 	color: #CC0000;
 }
 
-.Steamlink:hover {
+.steam:hover {
 	color: #A3A3A3;
 	text-decoration: none;
 	display: inline-block;
-	transform: scale(1.1);
+	transform: scale(1.01);
 }
 
 .dropbtn {
