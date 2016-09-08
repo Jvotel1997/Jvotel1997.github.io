@@ -1,0 +1,108 @@
+body {
+	background-image: url('images/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	color: #00CCCC;
+	text-align: center;
+}
+
+p {
+	color: #00CCCC;
+	text-align: center;
+	margin-left: 27%;
+	margin-right: 27%;
+}
+
+a {
+	color: #00CCCC;
+}
+
+ul {
+	color: white;
+	border-style: solid;
+	border-color: #00CCCC;
+	border-width: 1px;
+	list-style-type: none;
+	margin: 5px;
+	padding: 5px;
+}
+
+li {
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	height:20px;
+	margin: 10px;
+}
+
+li:hover {
+	transform: scale(1.15);
+	color: #CC0000;
+	text-decoration: underline;
+}
+
+#King_Charles {
+	text-align: center;
+}
+
+.comics {
+	text-decoration: none;
+}
+
+.comics:hover {
+	text-decoration: underline;
+	color: #CC0000;
+}
+
+.Steamlink:hover {
+	color: #A3A3A3;
+	text-decoration: none;
+	display: inline-block;
+	transform: scale(1.1);
+}
+
+.dropbtn {
+	background-color: #A3A3A3;
+	color: #000000;
+	padding: 20px 40px;
+	font-size: 20px;
+	border: solid;
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #d9d9d9;
+	min-width: 80px;
+	box-shadow: -3px 6px 40px 5px rgba(0,0,0,1)
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #FFAA00;
+	border: solid;
+	border-color: #000000;
+	border-width: 1px;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #FFAA00
+}
